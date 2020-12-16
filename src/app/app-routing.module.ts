@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormularioComponent } from './components/form/formulario/formulario.component';
 
 const routes: Routes = [
-  {path:'formulario',component:FormularioComponent},
+  {path:'',component:FormularioComponent},
   {path:'',pathMatch:'full',redirectTo:'formulario'},
   {path:'**',pathMatch:'full',redirectTo:'formulario'},
 ];
